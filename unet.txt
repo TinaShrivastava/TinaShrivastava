@@ -1,0 +1,18 @@
+Architecture: U-Net
+
+Total data: 3064
+Training data: 2452
+Validation data: 306
+Testing data: 306
+
+Image size: 256 x 256
+batch size: 8
+Learning rate: 1e-4
+Number of epochs: 44
+
+Test results:
+ - Accuracy: 0.99377
+ - F1: 0.74756
+ - Jaccard: 0.66034
+ - Recall: 0.76604
+ - Precision: 0.79611
